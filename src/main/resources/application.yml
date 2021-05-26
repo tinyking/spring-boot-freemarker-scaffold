@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    hikari:
+      username: tiny
+      password: tiny123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.13.144.47:3306/grape
